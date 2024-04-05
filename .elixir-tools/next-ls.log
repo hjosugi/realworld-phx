@@ -1,0 +1,934 @@
+
+12:56:33.219 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 3ms
+
+12:56:33.739 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 7ms
+
+12:56:34.245 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 7ms
+
+12:56:34.800 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 4ms
+
+12:56:35.335 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 3ms
+
+12:57:48.142 [debug] handled notification client -> server textDocument/didOpen in 1ms
+
+12:57:48.146 id=829 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+12:57:48.159 id=830 [debug] handled request client -> server textDocument/documentSymbol in 6ms
+
+12:57:48.446 id=831 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+12:58:06.264 id=832 [debug] handled request client -> server textDocument/codeAction in 456µs
+
+12:58:06.531 id=833 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+12:58:06.557 id=834 [debug] handled request client -> server textDocument/documentSymbol in 712µs
+
+12:58:06.880 id=835 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+12:58:07.139 id=836 [debug] handled request client -> server textDocument/codeAction in 399µs
+
+12:58:07.186 id=837 [debug] handled request client -> server textDocument/documentSymbol in 4ms
+
+12:58:08.233 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+12:58:08.326 id=838 [debug] handled request client -> server textDocument/codeAction in 473µs
+
+12:58:08.330 id=839 [debug] handled request client -> server textDocument/documentSymbol in 180µs
+
+12:58:08.503 id=840 [debug] handled request client -> server textDocument/documentSymbol in 232µs
+
+12:58:10.173 [debug] handled notification client -> server textDocument/didClose in 118µs
+
+12:58:10.181 id=841 [debug] handled request client -> server textDocument/codeAction in 2ms
+
+12:58:10.433 id=842 [debug] handled request client -> server textDocument/codeAction in 283µs
+
+12:58:10.481 id=843 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+12:58:10.625 [debug] handled notification client -> server textDocument/didClose in 140µs
+
+12:58:10.626 id=844 [debug] handled request client -> server textDocument/codeAction in 485µs
+
+12:58:10.926 id=845 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+12:58:11.011 [debug] handled notification client -> server textDocument/didClose in 81µs
+
+12:58:13.238 id=846 [debug] handled request client -> server textDocument/codeAction in 244µs
+
+12:58:13.334 id=847 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+12:58:13.614 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+12:58:13.614 id=848 [debug] handled request client -> server textDocument/codeAction in 244µs
+
+12:58:13.720 id=849 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+12:58:13.887 id=850 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+12:58:15.762 id=851 [debug] handled request client -> server textDocument/codeAction in 482µs
+
+12:58:16.405 [debug] sent notification server -> client window/logMessage
+
+12:58:16.407 id=930 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:16.408 [debug] sent notification server -> client $/progress
+
+12:58:16.481 [debug] sent notification server -> client window/logMessage
+
+12:58:16.481 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907096420244937 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAGFAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:16.489 [debug] handled notification client -> server workspace/didChangeWorkspaceFolders in 123ms
+
+12:58:17.559 [debug] sent notification server -> client window/logMessage
+
+12:58:17.559 [info] Connected to node nextls-runtime-1710907096420244937@hsuginoonoMacBook-Pro
+
+12:58:17.614 id=852 [debug] handled request client -> server textDocument/codeAction in 311µs
+
+12:58:17.867 id=853 [debug] handled request client -> server textDocument/codeAction in 970µs
+
+12:58:17.873 [debug] sent notification server -> client $/progress
+
+12:58:17.873 [debug] sent notification server -> client window/logMessage
+
+12:58:17.873 id=163 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:17.874 [debug] sent notification server -> client $/progress
+
+12:58:17.916 id=854 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+
+12:58:18.174 [debug] sent notification server -> client window/logMessage
+
+12:58:18.175 [info] Compiling 19 files (.ex)
+
+
+12:58:18.205 [debug] sent notification server -> client window/logMessage
+
+12:58:18.205 [debug] sent notification server -> client $/progress
+
+12:58:18.205 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:18.211 [debug] sent notification server -> client window/logMessage
+
+12:58:18.211 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907098210015635 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAGXAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:18.218 [debug] sent notification server -> client window/logMessage
+
+12:58:18.218 [error] Bad RPC call to node nextls-runtime-1710907096420244937@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:18.269 [debug] handled notification client -> server textDocument/didChange in 638µs
+
+12:58:18.270 id=855 [debug] handled request client -> server textDocument/codeAction in 169µs
+
+12:58:18.373 id=856 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+
+12:58:18.579 id=857 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+12:58:19.228 [debug] sent notification server -> client window/logMessage
+
+12:58:19.228 [info] Connected to node nextls-runtime-1710907098210015635@hsuginoonoMacBook-Pro
+
+12:58:19.524 [debug] sent notification server -> client $/progress
+
+12:58:19.524 [debug] sent notification server -> client window/logMessage
+
+12:58:19.524 id=1410 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:19.525 [debug] sent notification server -> client $/progress
+
+12:58:19.553 [debug] sent notification server -> client $/progress
+
+12:58:19.554 [debug] sent notification server -> client window/logMessage
+
+12:58:19.554 [debug] sent notification server -> client window/logMessage
+
+12:58:19.554 [debug] Unchecked dependencies for environment dev:
+* telemetry_metrics (Hex package)
+
+
+12:58:19.554 [debug] sent notification server -> client window/logMessage
+
+12:58:19.554 [info]   the dependency is not available, run "mix deps.get"
+* bandit (Hex package)
+  the dependency is not available, run "mix deps.get"
+
+
+12:58:19.554 [debug] sent notification server -> client window/logMessage
+
+12:58:19.554 [info] * phoenix_live_view (Hex package)
+  the dependency is not available, run "mix deps.get"
+
+
+12:58:19.554 [debug] sent notification server -> client window/logMessage
+
+12:58:19.554 [info] * telemetry_poller (Hex package)
+
+
+12:58:19.554 [debug] sent notification server -> client window/logMessage
+
+12:58:19.554 id=1442 [debug] sent request server -> client window/showMessageRequest
+
+12:58:19.554 [info]   the dependency is not available, run "mix deps.get"
+* esbuild (Hex package)
+
+
+12:58:19.555 [debug] sent notification server -> client window/logMessage
+
+12:58:19.555 [info]   the dependency is not available, run "mix deps.get"
+* jason (Hex package)
+  the dependency is not available, run "mix deps.get"
+* phoenix_html (Hex package)
+
+
+12:58:19.555 [debug] sent notification server -> client window/logMessage
+
+12:58:19.555 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:19.562 [debug] sent notification server -> client window/logMessage
+
+12:58:19.562 [error] Bad RPC call to node nextls-runtime-1710907098210015635@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:22.839 [debug] sent notification server -> client window/logMessage
+
+12:58:22.839 [info] Running `mix deps.get` in directory /Users/h.suginoo/workspace/bu-realworld
+
+12:58:25.566 [debug] sent notification server -> client window/logMessage
+
+12:58:25.567 [info] Restarting runtime bu-realworld for directory /Users/h.suginoo/workspace/bu-realworld
+
+12:58:25.567 [debug] sent notification server -> client window/logMessage
+
+12:58:25.567 [info] Resolving Hex dependencies...
+Resolution completed in 0.482s
+Unchanged:
+  bandit 1.3.0
+  castore 1.0.6
+  db_connection 2.6.0
+  decimal 2.1.1
+  dns_cluster 0.1.3
+  ecto 3.11.2
+  ecto_sql 3.11.1
+  esbuild 0.8.1
+  expo 0.5.2
+  file_system 1.0.0
+  finch 0.18.0
+  floki 0.36.0
+  gettext 0.24.0
+  hpax 0.1.2
+  jason 1.4.1
+  mime 2.0.5
+  mint 1.5.2
+  nimble_options 1.1.0
+  nimble_pool 1.0.0
+  phoenix 1.7.11
+  phoenix_ecto 4.5.1
+  phoenix_html 4.1.1
+  phoenix_live_dashboard 0.8.3
+  phoenix_live_reload 1.5.2
+  phoenix_live_view 0.20.14
+  phoenix_pubsub 2.1.3
+  phoenix_template 1.0.4
+  plug 1.15.3
+  plug_crypto 2.0.0
+  postgrex 0.17.5
+[33m  swoosh 1.16.1 RETIRED![0m
+[33m    (invalid) Emits unnecessary warning[0m
+  tailwind 0.2.2
+  telemetry 1.2.1
+  telemetry_metrics 0.6.2
+  telemetry_poller 1.0.0
+  thousand_island 1.3.5
+  websock 0.5.3
+  websock_adapter 0.5.5
+All dependencies are up to date
+
+
+12:58:25.569 [debug] sent notification server -> client window/logMessage
+
+12:58:25.569 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907105568884577 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAGnAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:25.570 [debug] sent notification server -> client $/progress
+
+12:58:25.570 [debug] handled notification client -> server textDocument/didClose in 124µs
+
+12:58:25.571 id=858 [debug] handled request client -> server textDocument/codeAction in 418µs
+
+12:58:25.571 id=859 [debug] handled request client -> server textDocument/codeAction in 331µs
+
+12:58:25.571 [debug] handled notification client -> server $/cancelRequest in 165µs
+
+12:58:25.572 id=860 [debug] handled request client -> server textDocument/documentSymbol in 877µs
+
+12:58:25.572 id=861 [debug] handled request client -> server textDocument/codeAction in 247µs
+
+12:58:25.573 [debug] handled notification client -> server $/cancelRequest in 40µs
+
+12:58:26.603 [debug] sent notification server -> client window/logMessage
+
+12:58:26.603 [info] Connected to node nextls-runtime-1710907105568884577@hsuginoonoMacBook-Pro
+
+12:58:26.807 [debug] sent notification server -> client $/progress
+
+12:58:26.808 [debug] sent notification server -> client window/logMessage
+
+12:58:26.808 id=227 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:26.809 [debug] sent notification server -> client $/progress
+
+12:58:27.255 [debug] sent notification server -> client window/logMessage
+
+12:58:27.255 [info] ==> file_system
+Compiling 7 files (.ex)
+
+
+12:58:27.754 [debug] sent notification server -> client window/logMessage
+
+12:58:27.754 [info] Generated file_system app
+
+
+12:58:27.817 [debug] sent notification server -> client window/logMessage
+
+12:58:27.818 [info] ==> decimal
+
+
+12:58:27.818 [debug] sent notification server -> client window/logMessage
+
+12:58:27.818 [info] Compiling 4 files (.ex)
+
+
+12:58:29.212 [debug] sent notification server -> client window/logMessage
+
+12:58:29.212 [info] Generated decimal app
+
+
+12:58:29.267 [debug] sent notification server -> client window/logMessage
+
+12:58:29.267 [info] ==> mime
+
+
+12:58:29.267 [debug] sent notification server -> client window/logMessage
+
+12:58:29.267 [info] Compiling 1 file (.ex)
+
+
+12:58:29.670 [debug] sent notification server -> client window/logMessage
+
+12:58:29.670 [info] Generated mime app
+
+
+12:58:29.719 [debug] sent notification server -> client window/logMessage
+
+12:58:29.719 [info] ==> nimble_options
+
+
+12:58:29.719 [debug] sent notification server -> client window/logMessage
+
+12:58:29.719 [info] Compiling 3 files (.ex)
+
+
+12:58:29.981 [debug] sent notification server -> client window/logMessage
+
+12:58:29.981 [debug] sent notification server -> client $/progress
+
+12:58:29.981 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:29.985 [debug] sent notification server -> client window/logMessage
+
+12:58:29.985 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907109984647626 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAG5AAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:29.996 [debug] sent notification server -> client window/logMessage
+
+12:58:29.996 [error] Bad RPC call to node nextls-runtime-1710907105568884577@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:31.011 [debug] sent notification server -> client window/logMessage
+
+12:58:31.011 [info] Connected to node nextls-runtime-1710907109984647626@hsuginoonoMacBook-Pro
+
+12:58:31.206 [debug] sent notification server -> client $/progress
+
+12:58:31.206 [debug] sent notification server -> client window/logMessage
+
+12:58:31.206 id=323 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:31.207 [debug] sent notification server -> client $/progress
+
+12:58:31.403 [debug] sent notification server -> client window/logMessage
+
+12:58:31.404 [info] ==> nimble_options
+
+
+12:58:31.404 [debug] sent notification server -> client window/logMessage
+
+12:58:31.404 [info] Compiling 3 files (.ex)
+
+
+12:58:32.360 [debug] sent notification server -> client window/logMessage
+
+12:58:32.360 [info] Generated nimble_options app
+
+
+12:58:33.123 [debug] sent notification server -> client window/logMessage
+
+12:58:33.124 [info] ===> Analyzing applications...
+
+
+12:58:33.179 [debug] sent notification server -> client window/logMessage
+
+12:58:33.179 [info] ===> Compiling telemetry
+
+
+12:58:33.618 [debug] sent notification server -> client window/logMessage
+
+12:58:33.618 [info] ==> telemetry_metrics
+
+
+12:58:33.618 [debug] sent notification server -> client window/logMessage
+
+12:58:33.618 [info] Compiling 7 files (.ex)
+
+
+12:58:34.004 [debug] sent notification server -> client window/logMessage
+
+12:58:34.004 [info] Generated telemetry_metrics app
+
+
+12:58:34.773 [debug] sent notification server -> client window/logMessage
+
+12:58:34.773 [info] ===> Analyzing applications...
+
+
+12:58:34.824 [debug] sent notification server -> client window/logMessage
+
+12:58:34.824 [info] ===> Compiling telemetry_poller
+
+
+12:58:35.205 [debug] sent notification server -> client window/logMessage
+
+12:58:35.206 [info] ==> thousand_island
+
+
+12:58:35.206 [debug] sent notification server -> client window/logMessage
+
+12:58:35.206 [info] Compiling 16 files (.ex)
+
+
+12:58:35.360 [debug] sent notification server -> client window/logMessage
+
+12:58:35.360 [debug] sent notification server -> client $/progress
+
+12:58:35.360 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:35.364 [debug] sent notification server -> client window/logMessage
+
+12:58:35.364 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907115363251172 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAHLAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:35.373 [debug] sent notification server -> client window/logMessage
+
+12:58:35.373 [error] Bad RPC call to node nextls-runtime-1710907109984647626@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:36.380 [debug] sent notification server -> client window/logMessage
+
+12:58:36.380 [info] Connected to node nextls-runtime-1710907115363251172@hsuginoonoMacBook-Pro
+
+12:58:36.657 [debug] sent notification server -> client $/progress
+
+12:58:36.658 [debug] sent notification server -> client window/logMessage
+
+12:58:36.658 id=515 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:36.659 [debug] sent notification server -> client $/progress
+
+12:58:36.874 [debug] sent notification server -> client window/logMessage
+
+12:58:36.875 [info] ==> thousand_island
+
+
+12:58:36.875 [debug] sent notification server -> client window/logMessage
+
+12:58:36.875 [info] Compiling 16 files (.ex)
+
+
+12:58:37.267 [debug] sent notification server -> client $/progress
+
+12:58:37.267 [debug] sent notification server -> client window/logMessage
+
+12:58:37.267 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:37.270 [debug] sent notification server -> client window/logMessage
+
+12:58:37.270 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907117269930109 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAHdAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:37.278 [debug] sent notification server -> client window/logMessage
+
+12:58:37.278 [error] Bad RPC call to node nextls-runtime-1710907115363251172@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:38.284 [debug] sent notification server -> client window/logMessage
+
+12:58:38.284 [info] Connected to node nextls-runtime-1710907117269930109@hsuginoonoMacBook-Pro
+
+12:58:38.517 [debug] sent notification server -> client $/progress
+
+12:58:38.517 [debug] sent notification server -> client window/logMessage
+
+12:58:38.517 id=739 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:38.519 [debug] sent notification server -> client $/progress
+
+12:58:38.682 [debug] sent notification server -> client window/logMessage
+
+12:58:38.682 [info] ==> thousand_island
+Compiling 16 files (.ex)
+
+
+12:58:39.135 [debug] sent notification server -> client window/logMessage
+
+12:58:39.136 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:39.136 [debug] sent notification server -> client $/progress
+
+12:58:39.158 [debug] sent notification server -> client window/logMessage
+
+12:58:39.158 [error] Bad RPC call to node nextls-runtime-1710907117269930109@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:39.230 [debug] sent notification server -> client window/logMessage
+
+12:58:39.230 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907119228672880 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAHvAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:40.302 [debug] sent notification server -> client window/logMessage
+
+12:58:40.302 [info] Connected to node nextls-runtime-1710907119228672880@hsuginoonoMacBook-Pro
+
+12:58:40.579 [debug] sent notification server -> client $/progress
+
+12:58:40.579 [debug] sent notification server -> client window/logMessage
+
+12:58:40.579 id=2146 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:40.580 [debug] sent notification server -> client $/progress
+
+12:58:40.782 [debug] sent notification server -> client window/logMessage
+
+12:58:40.782 [info] ==> thousand_island
+Compiling 16 files (.ex)
+
+
+12:58:41.304 [debug] sent notification server -> client window/logMessage
+
+12:58:41.304 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:41.304 [debug] sent notification server -> client $/progress
+
+12:58:41.308 [debug] sent notification server -> client window/logMessage
+
+12:58:41.309 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907121307562808 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAIBAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:41.317 [debug] sent notification server -> client window/logMessage
+
+12:58:41.317 [error] Bad RPC call to node nextls-runtime-1710907119228672880@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:42.366 [debug] sent notification server -> client window/logMessage
+
+12:58:42.366 [info] Connected to node nextls-runtime-1710907121307562808@hsuginoonoMacBook-Pro
+
+12:58:42.657 [debug] sent notification server -> client $/progress
+
+12:58:42.657 [debug] sent notification server -> client window/logMessage
+
+12:58:42.657 id=1091 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:42.658 [debug] sent notification server -> client $/progress
+
+12:58:42.833 [debug] sent notification server -> client window/logMessage
+
+12:58:42.833 [info] ==> thousand_island
+Compiling 16 files (.ex)
+
+
+12:58:43.463 [debug] sent notification server -> client $/progress
+
+12:58:43.464 [debug] sent notification server -> client window/logMessage
+
+12:58:43.464 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:43.481 [debug] sent notification server -> client window/logMessage
+
+12:58:43.481 [error] Bad RPC call to node nextls-runtime-1710907121307562808@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:43.484 [debug] sent notification server -> client window/logMessage
+
+12:58:43.484 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907123482430972 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAITAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:44.507 [debug] sent notification server -> client window/logMessage
+
+12:58:44.507 [info] Connected to node nextls-runtime-1710907123482430972@hsuginoonoMacBook-Pro
+
+12:58:44.776 [debug] sent notification server -> client $/progress
+
+12:58:44.776 [debug] sent notification server -> client window/logMessage
+
+12:58:44.776 id=1411 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:44.778 [debug] sent notification server -> client $/progress
+
+12:58:44.969 [debug] sent notification server -> client window/logMessage
+
+12:58:44.969 [info] ==> thousand_island
+
+
+12:58:44.970 [debug] sent notification server -> client window/logMessage
+
+12:58:44.970 [info] Compiling 16 files (.ex)
+
+
+12:58:45.433 [debug] sent notification server -> client window/logMessage
+
+12:58:45.433 [debug] sent notification server -> client $/progress
+
+12:58:45.433 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:45.447 [debug] sent notification server -> client window/logMessage
+
+12:58:45.447 [error] Bad RPC call to node nextls-runtime-1710907123482430972@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:45.451 [debug] sent notification server -> client window/logMessage
+
+12:58:45.451 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907125449371323 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAIlAAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:46.467 [debug] sent notification server -> client window/logMessage
+
+12:58:46.467 [info] Connected to node nextls-runtime-1710907125449371323@hsuginoonoMacBook-Pro
+
+12:58:46.663 [debug] sent notification server -> client $/progress
+
+12:58:46.663 [debug] sent notification server -> client window/logMessage
+
+12:58:46.664 id=1667 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:46.668 [debug] sent notification server -> client $/progress
+
+12:58:46.869 [debug] sent notification server -> client window/logMessage
+
+12:58:46.869 [info] ==> thousand_island
+Compiling 16 files (.ex)
+
+
+12:58:47.205 [debug] sent notification server -> client $/progress
+
+12:58:47.205 [debug] sent notification server -> client window/logMessage
+
+12:58:47.205 [info] The runtime for bu-realworld has successfully shut down.
+
+12:58:47.210 [debug] sent notification server -> client window/logMessage
+
+12:58:47.210 [info] Booting runtime for bu-realworld.
+
+- elixir: /usr/local/bin/elixir
+- zombie wrapper script: /Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/lib/next_ls-0.19.2/priv/cmd
+- working_dir: /Users/h.suginoo/workspace/bu-realworld
+- command: /usr/local/bin/elixir --no-halt --sname nextls-runtime-1710907127209447141 --cookie LMJBBFYNIMQ76MZJKSM3VNA53MGVGCYKTWGMGQCMXXU6364DUVTA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3MW5leHQtbHMtMTcxMDg5MTE3ODI2NjIyODA3OEBoc3VnaW5vb25vTWFjQm9vay1Qcm8AAAI3AAAAAGX6IKs=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/h.suginoo/Library/Application Support/.burrito/next_ls_erts-14.2.1_0.19.2/bin:/Users/h.suginoo/.cabal/bin:/Users/h.suginoo/Library/pnpm:/Users/h.suginoo/.opam/default/bin:/Users/h.suginoo/org.dfinity.dfx/bin:/Users/h.suginoo/.yarn/bin:/usr/local/opt/tcl-tk/bin:/Users/h.suginoo/.cargo/bin:/Users/h.suginoo/.volta/bin:/usr/local/opt/openssl@3/bin:/Users/h.suginoo/google-cloud-sdk/bin:/Users/h.suginoo/.ghcup/bin:/usr/local/opt/bison/bin:/Users/h.suginoo/.fzf_bin/bin:/usr/local/go/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/h.suginoo/.ghcup/bin
+
+
+12:58:47.218 [debug] sent notification server -> client window/logMessage
+
+12:58:47.218 [error] Bad RPC call to node nextls-runtime-1710907125449371323@hsuginoonoMacBook-Pro: :nodedown
+
+12:58:48.225 [debug] sent notification server -> client window/logMessage
+
+12:58:48.225 [info] Connected to node nextls-runtime-1710907127209447141@hsuginoonoMacBook-Pro
+
+12:58:48.380 [debug] sent notification server -> client $/progress
+
+12:58:48.380 [debug] sent notification server -> client window/logMessage
+
+12:58:48.380 id=1731 [debug] sent request server -> client window/workDoneProgress/create
+
+12:58:48.382 [debug] sent notification server -> client $/progress
+
+12:58:48.558 [debug] sent notification server -> client window/logMessage
+
+12:58:48.558 [info] ==> thousand_island
+
+
+12:58:48.559 [debug] sent notification server -> client window/logMessage
+
+12:58:48.559 [info] Compiling 16 files (.ex)
+
+
+12:58:49.080 [debug] sent notification server -> client $/progress
+
+12:58:52.190 id=862 [debug] handled request client -> server textDocument/codeAction in 608µs
+
+12:58:53.147 [debug] handled notification client -> server textDocument/didClose in 155µs
+
+13:00:28.985 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 1ms
+
+13:02:17.321 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 237µs
+
+13:02:47.127 [debug] handled notification client -> server textDocument/didOpen in 1ms
+
+13:02:47.165 id=863 [debug] handled request client -> server textDocument/codeAction in 769µs
+
+13:02:47.171 id=864 [debug] handled request client -> server textDocument/documentSymbol in 5ms
+
+13:02:47.438 id=865 [debug] handled request client -> server textDocument/documentSymbol in 5ms
+
+13:02:56.059 [debug] handled notification client -> server textDocument/didClose in 84µs
+
+13:02:56.087 [debug] handled notification client -> server textDocument/didOpen in 781µs
+
+13:02:56.091 id=866 [debug] handled request client -> server textDocument/codeAction in 488µs
+
+13:02:56.102 id=867 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+
+13:02:56.353 id=868 [debug] handled request client -> server textDocument/codeAction in 496µs
+
+13:02:56.391 id=869 [debug] handled request client -> server textDocument/documentSymbol in 739µs
+
+13:03:44.921 [debug] handled notification client -> server textDocument/didClose in 117µs
+
+13:03:44.991 [debug] handled notification client -> server textDocument/didOpen in 1ms
+
+13:03:44.991 id=870 [debug] handled request client -> server textDocument/codeAction in 419µs
+
+13:03:44.992 id=871 [debug] handled request client -> server textDocument/documentSymbol in 626µs
+
+13:03:45.263 id=872 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+13:03:47.211 id=873 [debug] handled request client -> server textDocument/codeAction in 265µs
+
+13:03:48.576 id=874 [debug] handled request client -> server textDocument/documentSymbol in 625µs
+
+13:03:48.876 id=875 [debug] handled request client -> server textDocument/documentSymbol in 838µs
+
+13:03:49.459 id=876 [debug] handled request client -> server textDocument/codeAction in 1ms
+
+13:03:52.093 id=877 [debug] handled request client -> server textDocument/codeAction in 377µs
+
+13:04:09.475 [debug] handled notification client -> server textDocument/didClose in 184µs
+
+13:04:09.507 [debug] handled notification client -> server textDocument/didOpen in 2ms
+
+13:04:09.510 id=878 [debug] handled request client -> server textDocument/codeAction in 527µs
+
+13:04:09.526 id=879 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+13:04:09.765 id=880 [debug] handled request client -> server textDocument/codeAction in 784µs
+
+13:04:09.821 id=881 [debug] handled request client -> server textDocument/documentSymbol in 404µs
+
+13:04:16.965 id=882 [debug] handled request client -> server textDocument/codeAction in 916µs
+
+13:04:18.568 [debug] handled notification client -> server textDocument/didChange in 1ms
+
+13:04:18.568 id=883 [debug] handled request client -> server textDocument/codeAction in 349µs
+
+13:04:18.667 id=884 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+
+13:04:18.845 id=885 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+
+13:28:20.718 [info] sweep old spans: ttl=1800000000000 num_dropped=1
+
+16:16:51.755 [info] sweep old spans: ttl=1800000000000 num_dropped=9
